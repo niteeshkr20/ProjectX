@@ -1,0 +1,57 @@
+export default {
+    baseURL: 'http://test2-env.eba-kfp6if7d.ap-south-1.elasticbeanstalk.com',
+    imageBaseURL: 'https://profileprojectx.s3.ap-south-1.amazonaws.com/',
+    TIMEOUT_DURATION: 120000,
+    enterOTP: '/resendVcode',
+    initialDetails: '/initialDetails',
+    updatePushNotificationToken: '/updatePushNotificationToken',
+    getProfile: '/getProfile',
+    downloadContact: '/downloadContact',
+    downloadContact_Phone: '/downloadContact_Phone',
+    inviteUser: '/inviteUser',
+    updateStatus: '/updateProfileStatus',
+    updateProfilepic: '/updateProfilePic',
+    updateAddress:'/updateProfileAddress',
+    getLeaderBoard: '/getLeaderboard',
+    updateProfileName: '/updateProfileName',
+    getUserPtofile: '/getUserProfile',
+    awsToken: '/awsToken',
+    getGameState: '/getGameState',
+    pickJewel: '/pickJewel',
+    getCurrentCycle: '/getCurrentCycle',
+    getGiftTasks: '/getGiftTasks',
+    getGiftTasksElements: '/getGiftTasksElements',
+    getGiftTaskLevel: '/getGiftTaskLevel',
+    getTasks: '/getTasks',
+    getTaskElements: '/getTaskElements',
+    getAchievements: '/getAchievements',
+    getUsersAchievement: '/getUsersAchievement',
+    redeemTask: '/redeemTask',
+    checkTaskCompletion: '/checkTaskCompletion',
+    getNewTaskOnTaskCompletion: '/getNewTaskOnTaskCompletion',
+    redeemGiftTask: '/redeemGiftTask',
+    checkGiftTaskCompletion: '/checkGiftTaskCompletion',
+    redeemAchievement: '/redeemAchievement',
+    getChildren: '/getChildren',
+    getLeaderboard: '/getLeaderboard',
+    getAllGiftsWon: '/getAllGiftsWon',
+    getWallet: '/getWallet',
+    emptyJewelStore: '/emptyJewelStore',
+    redeemMoney: '/redeemMoney',
+    getFactories: '/getFactories',
+    getUserFactory: '/getUserFactory',
+    startFactory: '/startFactory',
+    stopFactory: '/stopFactory',
+    transferJewelsFromFactory: '/transferJewelsFromFactory',
+    flushFactory: '/flushFactory',
+    getWalletJewelPrices: '/getWalletJewelPrices',
+    buyJewelsFromWallet: '/buyJewelsFromWallet',
+    getAccessToken: '/getAccessToken'// POST
+    //refreshToken: 'REFRESH_TOKEN' 
+}
+
+
+
+
+
+
